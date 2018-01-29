@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
   <style name="LocationLayer">
     <item name="foregroundDrawable">@drawable/mapbox_user_icon</item>
     <item name="backgroundDrawable">@drawable/mapbox_user_stroke_icon</item>

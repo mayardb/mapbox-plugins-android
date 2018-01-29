@@ -22,6 +22,9 @@ android {
   testOptions {
     unitTests.returnDefaultValues = true
   }
+
+  // Avoid naming conflicts
+  resourcePrefix 'mapbox_'
 }
 
 dependencies {

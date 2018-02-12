@@ -35,8 +35,10 @@ android {
 dependencies {
   // Mapbox
   implementation dependenciesList.mapboxMapSdk
-  implementation dependenciesList.mapboxServices
   implementation dependenciesList.mapboxGeocoding
+
+  // lostzen
+  implementation dependenciesList.lost
 
   implementation dependenciesList.lifecycleExtensions
   implementation dependenciesList.roomRuntime

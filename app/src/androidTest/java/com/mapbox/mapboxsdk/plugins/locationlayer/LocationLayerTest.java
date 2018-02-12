@@ -35,7 +35,7 @@ import static org.junit.Assert.assertTrue;
 
 @RunWith(AndroidJUnit4.class)
 @SuppressWarnings( {"MissingPermission"})
-public class LocationLayerPluginTest {
+public class LocationLayerTest {
 
   @Rule
   public ActivityTestRule<LocationLayerModesActivity> rule = new ActivityTestRule<>(LocationLayerModesActivity.class);

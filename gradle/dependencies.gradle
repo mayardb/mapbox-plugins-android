@@ -8,10 +8,10 @@ ext {
   ]
 
   version = [
-      mapboxMapSdk       : '5.4.0',
-      mapboxGeocoding    : '3.0.0-beta.2',
-      mapboxGeoJson      : '3.0.0-beta.2',
-      mapboxServices     : '2.2.9',
+      mapboxMapSdk       : '5.4.1',
+      mapboxGeocoding    : '3.0.0-SNAPSHOT',
+      mapboxGeoJson      : '3.0.0-SNAPSHOT',
+      lost               : '3.0.4',
       autoValue          : '1.5.3',
       autoValueParcel    : '0.2.6',
       junit              : '4.12',
@@ -101,7 +101,10 @@ ext {
       polly                  : "com.amazonaws:aws-android-sdk-polly:${version.awsPolly}",
 
       // errorprone
-      errorprone             : "com.google.errorprone:error_prone_core:${version.errorprone}"
+      errorprone             : "com.google.errorprone:error_prone_core:${version.errorprone}",
+
+      // lostzen
+      lost                   : "com.mapzen.android:lost:${version.lost}"
   ]
 
   pluginVersion = [

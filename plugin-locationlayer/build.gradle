@@ -23,6 +23,10 @@ android {
     unitTests.returnDefaultValues = true
   }
 
+  sourceSets {
+    main.res.srcDirs += 'src/main/res-public'
+  }
+
   // Avoid naming conflicts
   resourcePrefix 'mapbox_'
 }
